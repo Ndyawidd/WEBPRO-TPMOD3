@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- NADYA WIDDY ASTUTI - 1303223061 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP MOD 3</title>
+  </head>
+  <body>
+    <!-- tag div untuk mengelompokan elemen -->
+    <div class="Profil Pribadi">
+      <!-- Div disini untuk mengelompokan data Profil Pribadi yang terdiri atas Foto Ptofil (menggunakan tag img) dan Video Perkenalan (menggunakan tag iframe) -->
+      <!-- Kenapa memakai div ? Supaya kodenya lebih rapi dan tiap elemen nya terdapat kelasnya masing-masing -->
+      <h2>Profil Pribadi</h2>
+      <!-- H2 untuk heading -->
+      <table width="400px">
+        <!-- Table untuk membuat table -->
+        <!-- Kenapa pakai table disini? karena ada 2 konten yang bersebelahan (foto profil dan video perkenalan), jadi saya memutuskan untuk pakai table agar bersebelahan -->
+        <tr>
+          <!-- tr untuk membuat baris -->
+          <th><b>Foto Profil</b></th>
+          <!-- th untuk membuat judul pada header -->
+          <th><b>Video Perkenalan</b></th>
+        </tr>
+        <tr>
+          <td width="200px">
+            <!-- td untuk membuat sel -->
+            <img width="150px" src="download.jpeg" alt="Foto Profil" />
+            <!-- tag img untuk menambahkan image -->
+          </td>
+          <td>
+            <iframe
+              width="250"
+              height="150"
+              src="https://www.youtube.com/embed/Q-FaATfcWac"
+            >
+            </iframe>
+            <!-- iframe untuk menyematkan konten dari situs web lain ke dalam halaman web kita -->
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="Tentang Saya">
+      <h3>Tentang Saya</h3>
+      <!-- h3 untuk heading -->
+      <p>
+        Halo! Saya adalah seorang pengembang web antusias dengan passion di
+        bidang teknologi dan desain kreatif
+      </p>
+      <!-- tag p untuk membuat paragraf -->
+    </div>
+
+    <div class="Keterampilan">
+      <h3>Keterampilan</h3>
+      <table>
+        <tr>
+          <th>Keterampilan</th>
+          <th>Tingkat</th>
+        </tr>
+        <tr>
+          <td>HTML/CSS</td>
+          <td>Mahir</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Menengah</td>
+        </tr>
+        <tr>
+          <td>Phyton</td>
+          <td>Pemula</td>
+        </tr>
+      </table>
+      <!-- tag h3, table, tr, th, dan td sama seperti sebelumnya -->
+    </div>
+
+    <div class="Hubungi">
+      <h3>Hubungi Saya</h3>
+      <form>
+        Nama: <input type="text" />
+        <!-- tag input dengan type text memungkinkan user menginputkan text disini -->
+        <br />
+        <!-- tag br untuk -->
+        Email: <input type="text" />
+        <br />
+        Pesan: <br />
+        <textarea name="" id=""></textarea>
+        <!-- tag textarea membuat area teks lebih besar, sehingga memungkinkan user untuk memasukkan teks dalam jumlah yang lebih besar daripada input teks biasanya -->
+        <br />
+        <button>Kirim Pesan</button>
+        <!-- tag button digunakan untuk submit data diatas yang telah diisi -->
+      </form>
+      <!-- tag form untuk membuat formulir atau kumpulan elemen yang memungkinkan user memasukkan data atau informasi ke halaman web -->
+    </div>
+
+    <div class="Media_ Sosial">
+      <h3>Media Sosial</h3>
+      <a href="https://www.linkedin.com/in/nadya-widdy-astuti/">LinkedIn</a> |
+      <!-- tag a digunakan untuk membuat link, sehingga menghubungkan halaman ini dengan halaman lain -->
+      <a href="https://github.com/Ndyawidd/">GitHub</a> |
+      <a href="#">Twitter</a>
+    </div>
+  </body>
+</html>
